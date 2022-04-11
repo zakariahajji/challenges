@@ -1,0 +1,19 @@
+name: 'sandbox_models'
+version: '1.0.0'
+config-version: 2
+
+profile: 'default'
+
+
+source-paths: ["models"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+docs-paths: ["docs", "models"]
+
+target-path: "target"  # directory which will store compiled SQL files
+clean-targets:         # directories to be removed by `dbt clean`
+    - "target"
+    - "dbt_modules"
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+

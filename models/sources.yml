@@ -1,0 +1,9 @@
+#version: 2
+#sources:
+#    - name: NAME
+#      database: DATABASE
+#      schema: SCHEMA
+#      tables:
+#        - name: user_event
+#         - name: company
+#         - name: users

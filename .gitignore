@@ -1,0 +1,18 @@
+# Python Airflow
+.venv
+.local
+.logs
+.env
+venv
+__pycache__
+
+# PyCharm
+.idea
+*.db
+*.egg-info/
+
+dbt-env
+target/
+dbt_modules/
+dbt_packages/
+logs/
