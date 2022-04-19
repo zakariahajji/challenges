@@ -1,4 +1,4 @@
-## Gitbook dbt exercice 
+## dbt exercice 
 
 Models submitted are in /models,
 
